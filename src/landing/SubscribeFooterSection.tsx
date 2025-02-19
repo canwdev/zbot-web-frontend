@@ -19,7 +19,11 @@ export const SubscribeForm = ({ inputClassName } = { inputClassName: "" }) => {
         name="subscribe"
         className="px-4 py-2 text-sm rounded-full bg-rust text-filament font-medium cursor-pointer hover:opacity-90 transition-opacity"
       />
-      <a className="px-4 py-2 text-sm rounded-full border-current border flex items-center justify-center font-medium cursor-pointer hover:bg-rust hover:text-white">
+      <a
+        href="https://zerothbot.myshopify.com/products/zeroth-bot"
+        target="_blank"
+        className="px-4 py-2 text-sm rounded-full border-current border flex items-center justify-center font-medium cursor-pointer hover:bg-rust hover:text-white"
+      >
         Buy
       </a>
     </form>
